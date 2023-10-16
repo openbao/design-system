@@ -27,6 +27,8 @@ import 'prismjs/plugins/autoloader/prism-autoloader';
 setup(Prism);
 // Path is supposed to normally not need to be specified but it's not working either way currently
 // Prism.plugins.autoloader.languages_path = 'prismjs/components';
+Prism.plugins.autoloader.languages_path =
+  '/@hashicorp/design-system-components/prism-languages/';
 
 export default class HdsCodeBlockIndexComponent extends Component {
   @tracked prismCode = '';
