@@ -84,7 +84,6 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "@babel/core": "^7.23.3",
     "ember-source": "~5.4.0"
   },
   "ember": {

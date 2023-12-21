@@ -3498,7 +3498,6 @@ __metadata:
     tippy.js: "npm:^6.3.7"
     typescript: "npm:^5.2.2"
   peerDependencies:
-    "@babel/core": ^7.23.3
     ember-source: ~5.4.0
   languageName: unknown
   linkType: soft
