@@ -6,7 +6,7 @@
 import config from 'ember-get-config';
 
 export async function initialize() {
-  if (config.emberFlightIcons?.lazyEmbed) {
+  if (config?.emberFlightIcons?.lazyEmbed) {
     const { default: svgSprite } = await import(
       '@hashicorp/flight-icons/svg-sprite/svg-sprite-module'
     );
@@ -18,7 +18,7 @@ export async function initialize() {
         .getElementById('ember-testing')
         .insertAdjacentHTML('afterbegin', svgSprite);
     } else {
-      window.document.body.insertAdjacentHTML('beforeend', svgSprite);
+      window.document?.body?.insertAdjacentHTML('beforeend', svgSprite);
     }
   }
 }
