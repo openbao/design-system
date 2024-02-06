@@ -3,4 +3,4 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-export { default } from '@hashicorp/design-system-components/components/hds/modal/header';
+export { default } from '@hashicorp/design-system-components/components/hds/dialog-primitive/header';
